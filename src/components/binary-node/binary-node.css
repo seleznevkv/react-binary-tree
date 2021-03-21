@@ -1,0 +1,27 @@
+.node {
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+    z-index: 9999;
+    /* opacity:0; 
+     transition: 0.3s;
+    animation: show 0.3s 1;
+    animation-fill-mode: forwards; 
+    animation-delay: 0.3s; */ 
+}
+
+/* @keyframes show{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+    } */
+

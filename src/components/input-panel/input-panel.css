@@ -1,0 +1,31 @@
+.form-input {
+    padding: 5px 10px;
+    border: 2px solid rgb(0, 77, 128);
+    border-radius: 10px;
+    margin-right: 15px;
+    outline:none;
+    width: 210px;
+}
+
+
+
+.btn-show {
+    padding: 5px 10px;
+    border: 2px solid rgb(0, 77, 128);
+    border-radius: 10px;
+    cursor: pointer;
+    outline:none;
+    color: #fff;
+    background: rgb(2, 113, 187);
+    transition: 0.2s ease-in;
+    margin-right: 15px;
+}
+
+.btn-show:hover {
+    background: rgb(0, 77, 128);
+}
+
+.btn-show:active {
+    background: rgb(1, 50, 83);
+    border: 2px solid rgb(1, 50, 83);
+}
