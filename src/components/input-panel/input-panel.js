@@ -2,15 +2,15 @@ import React, { useState } from 'react'
 import './input-panel.css'
 
 function InputPanel({onInput}) {
-    const [nodeNumber, setnodeNumber] = useState(0);
+    const [nodeNumber, setnodeNumber] = useState('');
     const [text, settext] = useState('');
 
-    const sendNumber = (e) => {
+    const sendNumber = (e) => { //sending input value parameter to function in app.js
         e.preventDefault();
         onInput(nodeNumber);
     }
 
-    const changeValue = (e) => {
+    const changeValue = (e) => { //checking input value, adding into state
         if (!isNaN(e.target.value) && (+e.target.value < 7)) {
              
             setnodeNumber(e.target.value);

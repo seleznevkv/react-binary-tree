@@ -7,9 +7,9 @@ function BinaryNode(props) {
         const {value, top, left, bgcolor, onChangeColor} = props;
 
         let styles = {
-            top: `${top}px`,
-            left: `${left}px`,
-            background: `${bgcolor}`
+            top: `${top}px`,    //apply top position of selected node
+            left: `${left}px`,  //apply left position of selected node//
+            background: `${bgcolor}` //apply color on selected node
         }
 
         let classNames = "node";

@@ -4,7 +4,7 @@ function Line(props) {
     
     const {nodes} = props;
 
-    switch (nodes) {
+    switch (nodes) { //very BAD lines realization code
         case 3:
             
             return (

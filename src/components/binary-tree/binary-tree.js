@@ -5,7 +5,7 @@ import './binary-tree.css'
 
 function BinaryTree({nodes, onChangeColor, onDragStart, onDragOver, onDragDrop}) {
         
-    const elements = nodes.map((item) => {
+    const elements = nodes.map((item) => { //creating a node component for each row in node array
         return (
             <div key={item.id}
                 onDragStart={ () => onDragStart(item)}
@@ -24,8 +24,7 @@ function BinaryTree({nodes, onChangeColor, onDragStart, onDragOver, onDragDrop})
     return (
         <div className="binary-tree">
             <svg height="400" width="1200" className="svg-container">
-            <Line nodes={nodes.length} nodesArr={nodes}/>
-
+                <Line nodes={nodes.length} nodesArr={nodes}/>
             </svg>
             {elements}
 

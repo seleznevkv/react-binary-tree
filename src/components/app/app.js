@@ -6,32 +6,32 @@ import { HuePicker } from 'react-color'
 import './app.css'
 
 function App(props) {
-    const [nodesArray, setnodesArray] = useState([]);
-    const [currentNode, setCurrentNode] = useState(null);
-    const [color, setcolor] = useState("#ff0000");
+    const [nodesArray, setnodesArray] = useState([]);   //array of tree nodes
+    const [currentNode, setCurrentNode] = useState(null); //current tree node(used for d&d)
+    const [color, setcolor] = useState("#ff0000"); //state for changing color
 
     const infoText = [
         `1 - Укажите количество уровней дерева N (При N > 5 линии отключены);`, 
         `2 - Выберите цвет и выполните клик по одному из узлов дерева для изменения цвета;`,
         `3 - Вы можете менять узлы дерева местами зажатием ЛКМ.`
-    ];
+    ]; //info arr on page
 
-    const infoTextShow = infoText.map((item, key) => {
+    const infoTextShow = infoText.map((item, key) => { // creating info p tags
         return (
                 <p key={key}>{item}</p>
         );
     })
  
-    function dragStartHandler (node)  {
+    function dragStartHandler (node)  { //getting current node on start d&d
         setCurrentNode(node);
         console.log('drag', node);
     }
 
-    function dragOverHandler(e)  {
+    function dragOverHandler(e)  { //canceling standard browser functionality
         e.preventDefault();
     }
 
-    function dropHandler (e, node)  {
+    function dropHandler (e, node)  { //swapping nodes parameters on drop
         e.preventDefault();
         console.log('drop', node);
         setnodesArray(nodesArray.map(item => {
@@ -48,7 +48,7 @@ function App(props) {
         
     }
 
-    const changeNodeColor = (id) => {
+    const changeNodeColor = (id) => { //changing color of selected node
         setnodesArray(() => {
             const index = nodesArray.findIndex(elem => elem.id === id);
             let newArr = [...nodesArray];
@@ -57,7 +57,7 @@ function App(props) {
         })
     }
 
-    const createNodeTree = (nodes) => {
+    const createNodeTree = (nodes) => { //creating array of nodes using it's length value
         setnodesArray(() => {
 
             let newArr =    [],
