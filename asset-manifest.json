@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-binary-tree/static/css/main.7802ae7b.chunk.css",
-    "main.js": "/react-binary-tree/static/js/main.08753dac.chunk.js",
-    "main.js.map": "/react-binary-tree/static/js/main.08753dac.chunk.js.map",
+    "main.css": "/react-binary-tree/static/css/main.cda77f10.chunk.css",
+    "main.js": "/react-binary-tree/static/js/main.a5d4fed3.chunk.js",
+    "main.js.map": "/react-binary-tree/static/js/main.a5d4fed3.chunk.js.map",
     "runtime-main.js": "/react-binary-tree/static/js/runtime-main.129ecb19.js",
     "runtime-main.js.map": "/react-binary-tree/static/js/runtime-main.129ecb19.js.map",
-    "static/js/2.45cb3a8c.chunk.js": "/react-binary-tree/static/js/2.45cb3a8c.chunk.js",
-    "static/js/2.45cb3a8c.chunk.js.map": "/react-binary-tree/static/js/2.45cb3a8c.chunk.js.map",
+    "static/js/2.e6d7dfc0.chunk.js": "/react-binary-tree/static/js/2.e6d7dfc0.chunk.js",
+    "static/js/2.e6d7dfc0.chunk.js.map": "/react-binary-tree/static/js/2.e6d7dfc0.chunk.js.map",
     "index.html": "/react-binary-tree/index.html",
-    "static/css/main.7802ae7b.chunk.css.map": "/react-binary-tree/static/css/main.7802ae7b.chunk.css.map",
-    "static/js/2.45cb3a8c.chunk.js.LICENSE.txt": "/react-binary-tree/static/js/2.45cb3a8c.chunk.js.LICENSE.txt"
+    "static/css/main.cda77f10.chunk.css.map": "/react-binary-tree/static/css/main.cda77f10.chunk.css.map",
+    "static/js/2.e6d7dfc0.chunk.js.LICENSE.txt": "/react-binary-tree/static/js/2.e6d7dfc0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.129ecb19.js",
-    "static/js/2.45cb3a8c.chunk.js",
-    "static/css/main.7802ae7b.chunk.css",
-    "static/js/main.08753dac.chunk.js"
+    "static/js/2.e6d7dfc0.chunk.js",
+    "static/css/main.cda77f10.chunk.css",
+    "static/js/main.a5d4fed3.chunk.js"
   ]
 }
