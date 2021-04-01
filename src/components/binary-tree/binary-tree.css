@@ -1,12 +1,10 @@
 .binary-tree {
-    height: 400px;
-    position: relative;
-
-    width: 1200px;
-
+  height: 400px;
+  position: relative;
+  width: 1200px;
 }
 
 .svg-container {
-    border-top: 2px solid rgb(0, 77, 128);
-    z-index: 1;
+  border-top: 2px solid rgb(0, 77, 128);
+  z-index: 1;
 }

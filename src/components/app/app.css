@@ -1,29 +1,26 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .control-panel {
-    margin: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    padding: 15px 15px;
-    border: 2px solid rgb(0, 77, 128);
-    border-radius: 10px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 15px 15px;
+  border: 2px solid rgb(0, 77, 128);
+  border-radius: 10px;
 }
-
-
 
 .info-panel {
-    padding: 15px 30px;
-    position: relative;
+  padding: 15px 30px;
+  position: relative;
 }
-
